@@ -1,0 +1,6 @@
+test,statistic,p_value,effect_size,conclusion
+Welch's t-test: review_score ~ delivery_status (Late vs On-time),-100.743,0.0,Cohen's d = 1.467,"Significant, large effect"
+One-way ANOVA: review_score ~ dominant_payment_type,2.719,0.04285571300543779,-,Significant
+Pearson correlation: delivery_days vs review_score,-0.334,0.0,r = -0.334,Significant negative correlation
+Chi-square: main_category vs review_bucket (high/low),221.014,4.0190515565520976e-44,Cramer's V = 0.065,Significant but weak association
+Pearson correlation: order_total_value vs max_installments,0.321,0.0,r = 0.321,Significant positive correlation
